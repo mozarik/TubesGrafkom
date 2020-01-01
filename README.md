@@ -1,12 +1,15 @@
 # Nama Anggota Kelompok
 
-Nama  | NIM
------------- | -------------
+'''
+Nama                | NIM
+------------------- | -------------
 Muhammad Zein I. F. | 201810370311072
-Iqlima Chairunnisa | 	201810370311079
-Lale Wiega A. C. | 	201810370311061
-Sarlita Rizka A. | 201810370311075
-Tanthowi Jauhari | 201810370311054
+Iqlima Chairunnisa  | 201810370311079
+Lale Wiega A. C.    | 201810370311061
+Sarlita Rizka A.    | 201810370311075
+Tanthowi Jauhari    | 201810370311054
+
+'''
 
 # Readme
 
