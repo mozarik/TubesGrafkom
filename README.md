@@ -208,8 +208,9 @@ Disini kami akan mencoba atau melakukan testing , antara lain sebagai berikut
 1. Garis Melewati / Memotong semua kotak
 2. Garis Hanya memotong sebagian dengan x1,y1 berada pada luar kotak dan x2,y2 berada dalam kotak
 3. Garis Hanya memotong sebagaian dengan x1,y1 berada pada dalam kotak dan x2,y2 berada diluar kotak
+4. Garis tidak memotong sama sekali
 
-> Garis Melewati / Memotong Semua Kotak
+## 1. Garis Melewati / Memotong Semua Kotak
 
 ```python
 x1, y1 = 0, 0
@@ -220,3 +221,27 @@ x2, y2 = 100, 150
 Dengan titik potong berada pada
 
 ![Image of Titik Potong](https://i.ibb.co/kmnDYhc/image.png)
+
+## 2. Garis Hanya memotong sebagian dengan x1,y1 berada pada luar kotak dan x2,y2 berada dalam kotak
+
+```python
+x1, y1 = 0, 0
+x2, y2 = 60, 80
+```
+![Image of Garis Memotong Setengah_1](https://i.ibb.co/NKbQxgf/image.png)
+
+Dengan titik potong berada pada
+![Image of Titik Potong](https://i.ibb.co/bzfqqCz/image.png)
+
+## 3. Garis Hanya memotong sebagaian dengan x1,y1 berada pada dalam kotak dan x2,y2 berada diluar kotak
+```python
+x1, y1 = 0, 0
+x2, y2 = 60, 80
+```
+![Image of Garis Memotong Setengah_2](https://i.ibb.co/q1XcPKQ/image.png)
+
+Dengan titik potong berada pada 
+![Image of Garis Memotong Setengah_2](https://i.ibb.co/7bcY47P/image.png)
+
+## 4. Garis tidak memotong sama sekali 
+![Image of Garis Memotong Setengah_2](https://i.ibb.co/5R8PVBD/image.png)
