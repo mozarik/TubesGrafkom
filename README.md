@@ -235,8 +235,8 @@ Dengan titik potong berada pada
 
 ## 3. Garis Hanya memotong sebagaian dengan x1,y1 berada pada dalam kotak dan x2,y2 berada diluar kotak
 ```python
-x1, y1 = 0, 0
-x2, y2 = 60, 80
+x1, y1 = 80, 80
+x2, y2 = 85, 120
 ```
 ![Image of Garis Memotong Setengah_2](https://i.ibb.co/q1XcPKQ/image.png)
 
